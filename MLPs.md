@@ -7,3 +7,7 @@
 ## Q3：Pytorch中requires_grad的含义
 
 requires_grad表达的含义是，这一参数是否保留（或者说持有，即在前向传播完成后，是否在显存中记录这一参数的梯度，而非立即释放）梯度，等待优化器执行optim.step()更新参数。
+
+## Q4：nn.CrossEntropyLoss()的含义
+
+
